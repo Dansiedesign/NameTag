@@ -1,0 +1,61 @@
+body {
+  background: url(https://thepaintpeople.com/wp-content/uploads/2015/09/prepare-bare-wood-staining.jpg)
+    repeat;
+  font-family: "lato", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.hello {
+  background: #f23b2b;
+  width: 50vw;
+  margin-left: 25vw;
+  justify-content: center;
+  border-radius: 10px;
+  padding-bottom: 2em;
+}
+
+.header {
+  margin-bottom: 0;
+}
+.h2 {
+  font-weight: 500;
+}
+
+input {
+  width: 95%;
+  height: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 116px;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  border: white;
+  border: 0px;
+}
+
+button {
+  margin-top: 2em;
+  text-decoration: none;
+  width: 10vw;
+  height: 10vh;
+  font-size: 32px;
+  border-radius: 5px;
+  color: #ffff;
+  background-color: #f23b2b;
+  border: none;
+}
+button:hover {
+  background-color: #b3473d;
+}
+
+button:active {
+  background-color: #b3473d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
